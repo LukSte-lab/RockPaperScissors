@@ -7,7 +7,15 @@
     <title>Rock Paper Scissor with UI</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header class="header">
+        <div>
+            <h1>Rock Paper Scissor Game</h1>
+            <h3>Man vs Computer</h3>
+        </div>
+    </header>
+
     <div class="score">
         <h1 class="ties">Ties: 0</h1>
     </div>
@@ -17,23 +25,42 @@
     </div>
     <div class="playerSection">
         <h3 class="playerChoice"></h3>
-        <h3 class="playerScore">Score:0</h3>
+        <h3 class="playerScore">Score: 0</h3>
         <div class="playerImgs">
-            <img src="./images/rock.png" alt="Rock" class="pImg" id="rock">
-            <img src="./images/paper.png" alt="Paper" class="pImg" id="paper">
-            <img src="./images/scissors.png" alt="Scissor" class="pImg" id="scissor">
+            <div class="names">
+                <img src="./images/rock.jpeg" alt="Rock" class="pImg" id="rock">
+                <span>Rock</span>
+            </div>
+            <div class="names">
+                <img src="./images/paper.jpeg" alt="Paper" class="pImg" id="paper">
+                <span>Paper</span>
+            </div>
+            <div class="names">
+                <img src="./images/scissor.jpeg" alt="Scissor" class="pImg" id="scissor">
+                <span>Scissor</span>
+            </div>
         </div>
     </div>
 
     <div class="computerSection">
         <h3 class="computerChoice"></h3>
-        <h3 class="computerScore">Score:0</h3>
+        <h3 class="computerScore">Score: 0</h3>
         <div class="computerImgs">
-            <img src="./images/rock.png" alt="Rock" class="rock">
-            <img src="./images/paper.png" alt="Paper" class="paper">
-            <img src="./images/scissors.png" alt="Scissor" class="scissor">
+            <div class="names">
+                <img src="./images/rock.jpeg" alt="Rock" class="rock">
+                <span>Rock</span>
+            </div>
+            <div class="names">
+                <img src="./images/paper.jpeg" alt="Paper" class="paper">
+                <span>Paper</span>
+            </div>
+            <div class="names">
+                <img src="./images/scissor.jpeg" alt="Scissor" class="scissor">
+                <span>Scissor</span>
+            </div>
         </div>
     </div>
 </body>
 <script src="main.js"></script>
+<footer>© 2023 LukSte-Lab DXB, All Rights Reserved.</footer>
 </html>

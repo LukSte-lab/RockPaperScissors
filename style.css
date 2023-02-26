@@ -1,14 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+* {
+    font-family: 'Rampart One', cursive;
+}
+    
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#504f4f, rgba(104, 104, 104, 0.678));
+    background: url('./images/background.jpg') bottom center;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     overflow-x: hidden;
     overflow-y: hidden;
-    color: white;
-    text-shadow: 0 0 4px black;
+    color: #000000;
+    text-shadow: 0 0 4px gray;
+    position: relative;
+    top: 90px;
+}
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #1f2937;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around; 
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
 }
 .choices {
     display: flex;
@@ -24,15 +47,15 @@ body {
     display: flex;
     width: auto;
     justify-content: space-between;
-    background: rgba(255, 255, 255, 0.048);
+    background: #f4f4f4;
     padding: 20px;
-    border: solid black 5px;
+    border: solid black 2px;
     border-radius: 10px;
-    max-height: 90px;
+    max-height: 120px;
 }
 img {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
 }
 .pImg:hover {
     cursor: pointer;
@@ -66,4 +89,23 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.names {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
